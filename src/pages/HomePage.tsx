@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { Card } from "../components/Card"
-import { useCollections } from "../hooks/useCollections"
+import { Card } from "../components/Card";
+import { useCollections } from "../hooks/useCollections";
 import { useMarketplaceContract } from "../hooks/useContracts";
 
 const HomePage = () => {
@@ -20,7 +20,7 @@ const HomePage = () => {
                 <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
                     <h1 id="about" className="mb-4 text-4xl font-extrabold tracking-tight leading-none text-gray-900 md:text-5xl lg:text-6xl dark:text-white">ERC1155 NFT Marketplace</h1>
                     <p className="mb-8 text-lg font-normal text-gray-200 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                        Simple ERC1155 NFT Marketplace by Domenico for Blocki demo<br />
+                        Simple ERC1155 NFT Marketplace<br />
                         <span className="text-sm text-gray-500">Hero design by flowbite</span>
                     </p>
                 </div>
@@ -46,4 +46,4 @@ const HomePage = () => {
 
 }
 
-export { HomePage }
+export { HomePage };

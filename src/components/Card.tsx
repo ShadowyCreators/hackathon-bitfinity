@@ -9,7 +9,7 @@ const Card = (props: any) => {
                 alt=""
                 src={
                     props.img ||
-                    `https://images.unsplash.com/photo-1575936123452-b67c3203c357?ixlib=rb-4.0.3`
+                    new URL('/src/assets/bitfinity.jpeg', import.meta.url).href
                 }
                 className="card-img"
             />
@@ -28,4 +28,5 @@ const Card = (props: any) => {
 
 }
 
-export { Card }
+export { Card };
+

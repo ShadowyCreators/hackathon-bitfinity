@@ -3,7 +3,7 @@ const Footer = () => {
 
     return (
         <div className="footer" id="contact">
-            <div className="text-2xl font-bold mb-5">ERC1155 Marketplace by Domenico</div>
+            <div className="text-2xl font-bold mb-5">ERC1155 Marketplace</div>
             <div className="links">
                 <ul>
                     <li><a href="/#">Contact us</a></li>
@@ -14,7 +14,7 @@ const Footer = () => {
                 </ul>
             </div>
 
-            Copyright © 2023 domenicodev
+            Copyright © 2023
         </div>
     )
 
