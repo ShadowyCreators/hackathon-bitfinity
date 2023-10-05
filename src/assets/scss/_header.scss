@@ -1,0 +1,22 @@
+.header {
+
+    display: flex;
+    align-items: center;
+    padding: theme('spacing.6') theme('spacing.10');
+
+    .header-logo {
+        font-size: 20pt;
+        width: 33.3%;
+    }
+
+    .header-links {
+        text-align: center;
+        width: 66.6%;
+    }
+
+    .header-right {
+        text-align: right;
+        width: 33.3%;
+    }
+
+}

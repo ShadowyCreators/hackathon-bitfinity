@@ -1,0 +1,22 @@
+.card {
+    position: relative;
+    background-color: rgba(0,0,0,0.4);
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    .card-img {
+        height: 125px;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .card-content {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+}

@@ -1,0 +1,27 @@
+.footer {
+    padding: theme("spacing.10") 0 theme("spacing.14") 0;
+    text-align: center;
+}
+
+.footer .links {
+    margin: theme("spacing.10") 0;
+}
+
+.footer .links a {
+    text-decoration: none;
+    color: gray;
+}
+
+.footer .links a:hover {
+    color: #fff;
+}
+
+.footer .links ul {
+    width: 100%;
+}
+
+.footer .links ul li {
+    font-size: 12pt;
+    display: inline-block;
+    margin: 0px theme("spacing.5");
+}
